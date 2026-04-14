@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "老人健康打卡模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "老人健康打卡主页面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "健康打卡"
+    },
+    {
+      "name": "call_reason",
+      "value": "用于紧急联系人快速拨号"
+    }
+  ]
+}

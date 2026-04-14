@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "健康打卡助手"
+    },
+    {
+      "name": "app_desc",
+      "value": "每日健康状态记录与跟踪应用，关爱家人健康"
+    },
+    {
+      "name": "app_slogan",
+      "value": "关爱健康，每日打卡"
+    }
+  ]
+}

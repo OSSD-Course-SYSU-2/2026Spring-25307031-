@@ -1,0 +1,7 @@
+{
+  "layered-image":
+  {
+    "background" : "$media:background",
+    "foreground" : "$media:ic_health_check"
+  }
+}

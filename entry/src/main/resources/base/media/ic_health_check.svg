@@ -1,0 +1,28 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="100" cy="100" r="90" fill="#1890ff" opacity="0.1"/>
+  <circle cx="100" cy="100" r="80" fill="#1890ff" opacity="0.2"/>
+  
+  <!-- 主图标：心形加勾号 -->
+  <g transform="translate(100, 100)">
+    <!-- 心形 -->
+    <path d="M 0 -30 
+             C -20 -50, -50 -20, 0 20 
+             C 50 -20, 20 -50, 0 -30 
+             Z" 
+          fill="#1890ff" stroke="#ffffff" stroke-width="4"/>
+    
+    <!-- 勾号 -->
+    <path d="M -20 10 
+             L -5 25 
+             L 25 -5" 
+          stroke="#ffffff" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none"/>
+  </g>
+  
+  <!-- 外圈装饰 -->
+  <circle cx="100" cy="100" r="95" stroke="#1890ff" stroke-width="2" fill="none" opacity="0.3"/>
+</svg>
