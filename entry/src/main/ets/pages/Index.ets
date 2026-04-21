@@ -2,30 +2,12 @@ import { HealthCheckPage } from './HealthCheckPage';
 import { MedicationPage } from './MedicationPage';
 import { VitalSignPage } from './VitalSignPage';
 import { EmergencyPage } from './EmergencyPage';
+import router from '@ohos.router';
 
 @Entry
 @Component
 struct Index {
   @State currentIndex: number = 0;
-  
-  @Builder
-  TabBuilder(title: string, icon: string, index: number) {
-    Column() {
-      Text(icon)
-        .fontSize(24)
-      
-      Text(title)
-        .fontSize(12)
-        .margin({ top: 4 })
-        .fontColor(this.currentIndex === index ? '#1890ff' : '#666')
-    }
-    .width('100%')
-    .height('100%')
-    .justifyContent(FlexAlign.Center)
-    .onClick(() => {
-      this.currentIndex = index;
-    })
-  }
   
   build() {
     Column() {
@@ -46,16 +28,92 @@ struct Index {
       
       // 底部导航栏
       Row() {
-        this.TabBuilder('健康打卡', '📋', 0)
-        this.TabBuilder('用药提醒', '💊', 1)
-        this.TabBuilder('健康指标', '📊', 2)
-        this.TabBuilder('紧急联系', '🆘', 3)
+        // 健康打卡
+        Column() {
+          Text('📋')
+            .fontSize(24)
+          Text('健康打卡')
+            .fontSize(12)
+            .margin({ top: 4 })
+            .fontColor(this.currentIndex === 0 ? '#1890ff' : '#666666')
+        }
+        .layoutWeight(1)
+        .height('100%')
+        .justifyContent(FlexAlign.Center)
+        .onClick(() => {
+          this.currentIndex = 0;
+        })
+        
+        // 用药提醒
+        Column() {
+          Text('💊')
+            .fontSize(24)
+          Text('用药提醒')
+            .fontSize(12)
+            .margin({ top: 4 })
+            .fontColor(this.currentIndex === 1 ? '#1890ff' : '#666666')
+        }
+        .layoutWeight(1)
+        .height('100%')
+        .justifyContent(FlexAlign.Center)
+        .onClick(() => {
+          this.currentIndex = 1;
+        })
+        
+        // 健康指标
+        Column() {
+          Text('📊')
+            .fontSize(24)
+          Text('健康指标')
+            .fontSize(12)
+            .margin({ top: 4 })
+            .fontColor(this.currentIndex === 2 ? '#1890ff' : '#666666')
+        }
+        .layoutWeight(1)
+        .height('100%')
+        .justifyContent(FlexAlign.Center)
+        .onClick(() => {
+          this.currentIndex = 2;
+        })
+        
+        // 紧急联系
+        Column() {
+          Text('🆘')
+            .fontSize(24)
+          Text('紧急联系')
+            .fontSize(12)
+            .margin({ top: 4 })
+            .fontColor(this.currentIndex === 3 ? '#1890ff' : '#666666')
+        }
+        .layoutWeight(1)
+        .height('100%')
+        .justifyContent(FlexAlign.Center)
+        .onClick(() => {
+          this.currentIndex = 3;
+        })
+        
+        // 多端部署
+        Column() {
+          Text('📱')
+            .fontSize(24)
+          Text('多端部署')
+            .fontSize(12)
+            .margin({ top: 4 })
+            .fontColor('#52c41a')
+        }
+        .layoutWeight(1)
+        .height('100%')
+        .justifyContent(FlexAlign.Center)
+        .onClick(() => {
+          router.pushUrl({
+            url: 'pages/MultiDeviceIndex'
+          });
+        })
       }
       .width('100%')
       .height(70)
       .backgroundColor('#ffffff')
-      .justifyContent(FlexAlign.SpaceEvenly)
-      .shadow({ radius: 10, color: '#00000010', offsetX: 0, offsetY: -2 })
+      .shadow({ radius: 10, color: '#00000015', offsetX: 0, offsetY: -2 })
     }
     .width('100%')
     .height('100%')

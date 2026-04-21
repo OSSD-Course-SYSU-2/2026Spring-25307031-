@@ -15,6 +15,46 @@
     {
       "name": "call_reason",
       "value": "用于紧急联系人快速拨号"
+    },
+    {
+      "name": "call_phone_reason",
+      "value": "用于紧急情况下拨打紧急联系人电话"
+    },
+    {
+      "name": "send_messages_reason",
+      "value": "用于紧急情况下发送位置信息短信给紧急联系人"
+    },
+    {
+      "name": "location_reason",
+      "value": "用于获取当前位置信息并发送给紧急联系人"
+    },
+    {
+      "name": "notification_reason",
+      "value": "用于用药提醒通知推送"
+    },
+    {
+      "name": "distributed_datasync_permission_reason",
+      "value": "用于跨设备数据同步和自由流转功能"
+    },
+    {
+      "name": "distributed_device_info_permission_reason",
+      "value": "用于获取分布式设备信息，实现多设备协同"
+    },
+    {
+      "name": "distributed_device_state_change_permission_reason",
+      "value": "用于监听分布式设备状态变化"
+    },
+    {
+      "name": "bluetooth_permission_reason",
+      "value": "用于蓝牙设备连接和数据传输"
+    },
+    {
+      "name": "location_permission_reason",
+      "value": "用于获取位置信息，支持健康数据定位"
+    },
+    {
+      "name": "internet_permission_reason",
+      "value": "用于网络数据同步和云端备份"
     }
   ]
 }
