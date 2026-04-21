@@ -15,6 +15,22 @@
     {
       "name": "call_reason",
       "value": "用于紧急联系人快速拨号"
+    },
+    {
+      "name": "call_phone_reason",
+      "value": "用于紧急情况下拨打紧急联系人电话"
+    },
+    {
+      "name": "send_messages_reason",
+      "value": "用于紧急情况下发送位置信息短信给紧急联系人"
+    },
+    {
+      "name": "location_reason",
+      "value": "用于获取当前位置信息并发送给紧急联系人"
+    },
+    {
+      "name": "notification_reason",
+      "value": "用于用药提醒通知推送"
     }
   ]
 }
