@@ -211,8 +211,25 @@ ohpm install
 - [x] 快速拨号和位置共享
 - [x] 权限自动申请管理
 以下为图片展示：
+（一）健康打卡功能：
 <img width="467" height="1035" alt="image" src="https://github.com/user-attachments/assets/aa142b9d-15df-40c2-b468-15d29bb83da2" />
+![Uploading image.png…]()
 
+（二）用药提醒功能：
+<img width="486" height="1076" alt="image" src="https://github.com/user-attachments/assets/59735439-32d5-4dd2-824d-3ad4f2e8fad1" />
+<img width="486" height="1076" alt="image" src="https://github.com/user-attachments/assets/28940a4a-23b2-4802-9e71-7d1d5c56fe90" />
+（三）健康指标记录：
+<img width="486" height="1076" alt="image" src="https://github.com/user-attachments/assets/6cd0f608-5b41-4d00-9517-e0ee48bed7eb" />
+<img width="483" height="1076" alt="image" src="https://github.com/user-attachments/assets/0f39aa1c-1f58-46e0-843d-227b640469a5" />
+<img width="480" height="1076" alt="image" src="https://github.com/user-attachments/assets/ab7e0062-089e-41c1-9b04-c2f6ac0bb138" />
+<img width="486" height="1076" alt="image" src="https://github.com/user-attachments/assets/1f6c9e61-d42e-4938-b7fe-0f7e43b6b5a7" />
+<img width="483" height="1076" alt="image" src="https://github.com/user-attachments/assets/524ffaa2-b8e6-4676-ac41-e7194f46afc5" />
+<img width="480" height="1076" alt="image" src="https://github.com/user-attachments/assets/74bbb7e3-b3b8-473e-aae2-4bb216b9fd78" />
+（四）紧急联系功能：
+<img width="480" height="1076" alt="image" src="https://github.com/user-attachments/assets/0a97f4fc-e8c0-453a-a6c0-3a5637ee16f5" />
+<img width="483" height="1076" alt="image" src="https://github.com/user-attachments/assets/047a6cf9-7781-4ee6-9fc5-716b16fa16d7" />
+<img width="480" height="1076" alt="image" src="https://github.com/user-attachments/assets/6f7c22e1-d7c4-498f-82ae-8e97ec8a29e2" />
+<img width="486" height="1076" alt="image" src="https://github.com/user-attachments/assets/8ee3e23e-7a1d-4d8d-9859-9e2ff2bf8de6" />
 
 ## 待完善功能
 
@@ -243,4 +260,4 @@ ohpm install
 
 ## 致谢
 
-感谢HarmonyOS开发社区的支持和贡献。
+感谢HarmonyOS开发社区的支持和贡献。感谢汪汉云老师以及助教老师的辛苦付出与指导！
