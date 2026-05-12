@@ -210,6 +210,9 @@ ohpm install
 - [x] SOS紧急呼叫功能
 - [x] 快速拨号和位置共享
 - [x] 权限自动申请管理
+以下为图片展示：
+<img width="467" height="1035" alt="image" src="https://github.com/user-attachments/assets/aa142b9d-15df-40c2-b468-15d29bb83da2" />
+
 
 ## 待完善功能
 
