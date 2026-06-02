@@ -245,16 +245,25 @@ ohpm install
 <img width="486" height="1076" alt="image" src="https://github.com/user-attachments/assets/8ee3e23e-7a1d-4d8d-9859-9e2ff2bf8de6" />
 
 
-## 待完善功能
+## 多端部署功能实现（lab3）
+ 
+- 同一套代码同时运行在2in1、平板、折叠屏三类设备
 
-- [ ] 健康数据趋势图表可视化
-- [ ] 数据导出功能（CSV/PDF）
-- [ ] 多语言支持
-- [ ] 深色模式适配
-- [ ] 数据云同步
-- [ ] 家属远程查看功能
-- [ ] 语音输入辅助
-- [ ] 无障碍功能增强
+- 基于RelativeContainer和Grid栅格布局实现响应式界面
+
+- 自动适配不同屏幕分辨率和横竖屏切换
+
+- 针对不同设备特性优化交互逻辑和元素大小
+
+展示效果如图：
+
+平板：
+<img width="1218" height="788" alt="image" src="https://github.com/user-attachments/assets/69158e9d-b94d-4df0-bf0c-58db038c00b6" />
+2in1：
+<img width="1293" height="888" alt="image" src="https://github.com/user-attachments/assets/8ba98bb4-8886-45c3-8862-eefb88d2b51e" />
+折叠屏：
+<img width="809" height="920" alt="image" src="https://github.com/user-attachments/assets/172881de-fa9e-40d8-a22d-d7179eadc44e" />
+
 
 ## 贡献指南
 
