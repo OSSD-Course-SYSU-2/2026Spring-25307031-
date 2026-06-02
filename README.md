@@ -255,13 +255,18 @@ ohpm install
 
 - 针对不同设备特性优化交互逻辑和元素大小
 
-展示效果如图：
+## 展示效果如图：
 
-平板：
-<img width="1218" height="788" alt="image" src="https://github.com/user-attachments/assets/69158e9d-b94d-4df0-bf0c-58db038c00b6" />
-2in1：
-<img width="1293" height="888" alt="image" src="https://github.com/user-attachments/assets/8ba98bb4-8886-45c3-8862-eefb88d2b51e" />
-折叠屏：
+## 平板：
+
+<img width="1000" height="588" alt="image" src="https://github.com/user-attachments/assets/69158e9d-b94d-4df0-bf0c-58db038c00b6" />
+
+## 2in1：
+
+<img width="1100" height="808" alt="image" src="https://github.com/user-attachments/assets/8ba98bb4-8886-45c3-8862-eefb88d2b51e" />
+
+## 折叠屏：
+
 <img width="809" height="920" alt="image" src="https://github.com/user-attachments/assets/172881de-fa9e-40d8-a22d-d7179eadc44e" />
 
 
